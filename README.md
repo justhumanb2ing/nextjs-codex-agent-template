@@ -1,6 +1,11 @@
 ## Overview
 Next.js 16 (App Router) starter using Tailwind CSS v4, shadcn/ui tokens, and Sentry already wired for server/edge/client. GA4 is opt-in via `@next/third-parties/google`.
 
+## Use as a GitHub template
+- Click **Use this template** on GitHub to create a new repo.
+- After cloning, copy `.env.example` to `.env.local` and fill required keys.
+- Remove any unneeded sample configs; Sentry/GA4 stay inactive until env vars are provided.
+
 ## Prerequisites
 - Node 20+, Bun (preferred package manager)
 - Copy `.env.example` to `.env.local` and fill in monitoring/analytics keys:
