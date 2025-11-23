@@ -1,3 +1,4 @@
+import SentryTracker from "@/components/sentry-tracker";
 import Image from "next/image";
 
 export default function Home() {
@@ -59,6 +60,7 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <SentryTracker />
       </main>
     </div>
   );
